@@ -19,14 +19,8 @@ Route::get('/corso', 'CorsoController@index') -> name('corso');
 
 Route::get('/carriere', 'CarriereController@index') -> name('carriere');
 
-Route::get('/carriere', function () {
-    return view('carriere');
-}) -> name('carriere');
+Route::get('/lezione-gratuita', 'LezioneGratuitaController@index') -> name('lezione-gratuita');
 
-Route::get('/lezione-gratuita', function () {
-    return view('lezione-gratuita');
-}) -> name('lezione-gratuita');
+Route::get('/iscriviti', 'IscrivitiController@index') -> name('iscriviti');
 
-Route::get('/iscriviti', function () {
-    return view('iscriviti');
-}) -> name('iscriviti');
+Route::get('/contatti', 'ContattiController@index') -> name('contatti');

@@ -4,6 +4,8 @@
 
 @section('content')
 
-<p>main della pagina "candidati ora"</p>
+<main class="common">
+  <p>main della pagina "candidati ora"</p>
+</main>
 
 @endsection

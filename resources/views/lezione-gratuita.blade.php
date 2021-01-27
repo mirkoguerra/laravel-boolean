@@ -4,6 +4,8 @@
 
 @section('content')
 
-<p>main della pagina "camp gratuito"</p>
+<main class="common">
+  <p>main della pagina "camp gratuito"</p>
+</main>
 
 @endsection

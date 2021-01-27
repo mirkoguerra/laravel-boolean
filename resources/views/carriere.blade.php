@@ -4,6 +4,8 @@
 
 @section('content')
 
-<p>main della pagina "dopo il corso"</p>
+<main class="common">
+  <p>main della pagina "dopo il corso"</p>
+</main>
 
 @endsection

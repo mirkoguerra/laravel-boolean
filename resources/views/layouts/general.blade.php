@@ -15,9 +15,9 @@
 
     @include('common.header')
 
-    <main>
-      @yield('content')
-    </main>
+    @yield('content')
+
+    @yield('user_main')
 
   </body>
 </html>

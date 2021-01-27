@@ -4,6 +4,8 @@
 
 @section('content')
 
-<p>main della pagina "home"</p>
+<main class="common">
+  <p>main della pagina "home"</p>
+</main>
 
 @endsection

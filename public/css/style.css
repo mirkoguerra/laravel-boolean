@@ -11,11 +11,15 @@ body {
 /* HEADER */
 header {
   height: 200px;
+  width: 100%;
+  position: fixed;
+  top: 0;
   padding: 0 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: #FFFFFF;
 }
 header img {
   height: 50px;
@@ -42,14 +46,44 @@ header ul li.active a {
 }
 /* MAIN */
 main {
-  height: calc(100vh - 200px);
+  margin-top: 200px;
   background-color: lightgrey;
+  display: flex;
+  flex-direction: row;
+}
+main.common {
+  height: calc(100vh - 200px);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-main p {
+main.common p {
   font-size: 40px;
   color: #11D977;
+}
+main.users-container {
+  padding: 20px 20px 0 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main.users-container div.user-container {
+  background-color: #FFFFFF;
+  width: 260px;
+  height: 350px;
+  margin-bottom: 20px;
+}
+main.users-container div.user-container div.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 70px;
+  padding: 2px;
+}
+main.users-container div.user-container div.user-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
 }
