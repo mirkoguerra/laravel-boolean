@@ -51,7 +51,7 @@ main {
   display: flex;
   flex-direction: row;
 }
-main.common {
+main.common, main.contatto {
   height: calc(100vh - 200px);
   display: flex;
   flex-direction: row;
@@ -67,23 +67,26 @@ main.users-container {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-main.users-container div.user-container {
+div.user-container {
   background-color: #FFFFFF;
   width: 260px;
   height: 350px;
   margin-bottom: 20px;
 }
-main.users-container div.user-container div.user-info {
+div.user-container div.user-info {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 70px;
   padding: 2px;
 }
-main.users-container div.user-container div.user-img {
+div.user-container div.user-img {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   height: 280px;
+}
+div.user-container div.user-info a:visited {
+  color: blue;
 }

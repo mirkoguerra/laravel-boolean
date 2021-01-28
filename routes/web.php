@@ -24,3 +24,7 @@ Route::get('/lezione-gratuita', 'LezioneGratuitaController@index') -> name('lezi
 Route::get('/iscriviti', 'IscrivitiController@index') -> name('iscriviti');
 
 Route::get('/contatti', 'ContattiController@index') -> name('contatti');
+
+Route::get('/contatti-upgrade', 'ContattiUpgradeController@index') -> name('contatti-upgrade');
+
+Route::get('/contatti-upgrade/{id}', 'ContattiUpgradeController@show') -> name('contatti-upgrade-id');
